@@ -28,7 +28,7 @@ class Instachecker:
 
     def check_account(self,username):
         redo = True
-        while redo:
+        while redo and self.is_alive:
             data = {'password':'mypass', 'email':'myemailherer@mail.com', 'username':username, 'first_name':'Mehran+Mehrani'}
             r = requests.post(url = self.url, headers = self.headers, data = data)
             responde = r.text
