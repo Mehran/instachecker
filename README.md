@@ -1,5 +1,7 @@
 
 Instagram Avaialibility Checker .
+
+it check all Available username on File .
   
 
 ### Requirements
@@ -15,4 +17,9 @@ Instagram Avaialibility Checker .
 ### Installation
 ```sh
 pip3 install -r requirements.txt
+```
+
+### Usage
+```sh
+python3 instachecker.py <file.txt>
 ```
